@@ -120,8 +120,6 @@ body.ModoOscuro {
     100% { transform: translateX(250px); opacity: 0.5; }
 }
 
-
-
 .ModoOscuro .boton {
     transform: translateX(11rem);
     background-color: #2b2b2b;
@@ -131,4 +129,11 @@ body.ModoOscuro {
 .ModoOscuro .contenedor_icono {
     color: #ffffff;
     transform: rotate(10deg);
+}
+
+/*Eliminar selección de botón*/ 
+.contenedor_boton,
+.boton {
+    outline: none; /* Elimina el contorno de enfoque */
+    -webkit-tap-highlight-color: transparent; /* Elimina el efecto de resaltado en móviles */
 }
